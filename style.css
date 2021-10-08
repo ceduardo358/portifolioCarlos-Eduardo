@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    
+    height: 140px;
+    
+}
+h1{
+    color: blueviolet;
+    font-family: 'Akronim', cursive;
+    font-size: 30px;
+}
+h2{
+    color: blueviolet;
+    font-family: 'Akronim', cursive;
+}
