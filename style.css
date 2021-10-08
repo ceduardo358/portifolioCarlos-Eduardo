@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background: rgb(54, 52, 52);
+}
 
 .navbar{
     
@@ -16,4 +19,32 @@ h1{
 h2{
     color: blueviolet;
     font-family: 'Akronim', cursive;
+}
+/*Parte do site onde esta a descrição e minha foto*/
+.desc-foto{
+    display: flex;
+    position: relative;
+   background: cover;
+    background-repeat: no-repeat;
+
+}
+.desc{
+    width: 50%;
+    height: 280px;
+    position: absolute;
+    border: 1px solid rgb(185, 129, 129);
+    
+}
+
+.foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    position: absolute;
+    border: 1px solid red;
+
+}
+.foto-edu{
+    border-radius: 40%;
 }
