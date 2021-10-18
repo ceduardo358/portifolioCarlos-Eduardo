@@ -1,50 +1,94 @@
+/*Cor do texto #c052eb
+ Cor do background #280536
+ font do google fonts font-family: 'Orbitron', sans-serif
+*/
+
 *{
     padding: 0;
     margin: 0;
+   
 }
-body{
-    background: rgb(54, 52, 52);
-}
+/*Menu*/
 
-.navbar{
-    
-    height: 140px;
-    
+.menu{
+    width: 100vw;
+    background: #280536;
 }
-h1{
-    color: blueviolet;
-    font-family: 'Akronim', cursive;
-    font-size: 30px;
-}
-h2{
-    color: blueviolet;
-    font-family: 'Akronim', cursive;
-}
-/*Parte do site onde esta a descrição e minha foto*/
-.desc-foto{
+.container-menu{
+    max-width: 1160px;
     display: flex;
-    position: relative;
-   background: cover;
-    background-repeat: no-repeat;
-
-}
-.desc{
-    width: 50%;
-    height: 280px;
-    position: absolute;
-    border: 1px solid rgb(185, 129, 129);
-    
-}
-
-.foto{
-    display: flex;
+    padding: 0 30px;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
-    width: 40%;
-    position: absolute;
-    border: 1px solid red;
+    margin: 0 auto;
+  
+}
+.logo{
+    padding: 15px 0;
+}
+.logo > h1{
+    color:white;
+    font-size: 2.25em;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: -1px 2px 4px #c052eb;
+}
+.logo > h2{
+    color:white;
+    font-size: 2.25em;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: -1px 2px 4px #c052eb;
+}
+.menu-item ul{
+display: flex;
+ list-style: none;
+ 
+ }
+.menu ul li a{
+    display: block;
+    font-size: 1.5em;
+    padding: 31px 0 ;
+    margin: 10px ;
+    text-decoration: none;
+    color: #c052eb;
+    border-bottom: 3px solid #280536;
+}
+.menu ul li a:hover {
+  border-bottom: 3px solid #c052eb;
+  
+}
+.menu-item li{
+    display: block;
+}
+/*Sobre*/
 
+
+
+.img-principal{
+    
+    width: 100vw;
+    background-size: cover;
+    position: absolute;
+  
+    
+}
+
+.sobre-container-int{
+    max-width: 1160px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 140px;
+   
+}
+.desc-sobre{
+    width: 400px;
+    height: 200px;
+    background: rgb(172, 172, 207);
+    padding: 20px 0;
 }
 .foto-edu{
-    border-radius: 40%;
+    border: 2px solid #280536;
+    border-radius: 50%;
 }
