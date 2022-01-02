@@ -143,8 +143,10 @@ display: flex;
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 10px;
+    margin-left: 20px;
     color: white;
     text-align: center;
+  
     
 }
 /*Aqui vai os estilos da parte onde mostra meus projetos*/
