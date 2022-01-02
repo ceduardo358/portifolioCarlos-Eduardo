@@ -50,6 +50,8 @@ display: flex;
 .menu ul li a{
     display: block;
     font-size: 1.5em;
+    font-family: 'Orbitron', sans-serif;
+    font-style: italic;
     padding: 31px 0 ;
     margin: 10px ;
     text-decoration: none;
@@ -138,7 +140,12 @@ display: flex;
     border: 2px solid yellow;
 }
 .sobre-mim h2,p{ 
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
     color: white;
+    text-align: center;
+    
 }
 /*Aqui vai os estilos da parte onde mostra meus projetos*/
 .container-slide{
