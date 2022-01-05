@@ -1,53 +1,61 @@
+/*Cor padrão #6c63ff*, cor do botão rgb(43, 43, 131)
+, font Redressed*/
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'Redressed', cursive;
     letter-spacing: 3px;
 }
-    strong{
-        color: red;
-    }
-    
+.container{
+    display: flex;
+    flex-direction: column;
+}
+   
+/*Imagem do topo do site*/    
 .container-topo{
-    border: 1px solid red;
-    position: relative;
+   
+    width: 100vw;
+    position: absolute;
+    height: 350px;
+    
     
 }
 h1{
     text-align: center;
     font-size: 36px;
+    font-family:serif;
+    font-style: italic;
+    text-shadow: 1px 2px 2px white;
+    margin-top: -220px;
 }
 
-
-#container{
+/*Fim*/
+.container-simulador{
     display: flex;
-   
-   
-    top: 20px;
-    position: relative;
-    left: 150px;
-    height: 700px;
-   
+    justify-content: center;
+    margin-top: 230px;
+    
 }
 
-
-svg{
-    padding: 0;
-    margin: 0;
-    position: relative;
-}
-.simul{
+.simulador{
     display: flex;
-    box-shadow: 2px 2px 2px black;
+    flex-direction: column;
+    
     margin-left: 100px;
     background: #6c63ff;
     color: white;
-    height: 65vh;
-    width: 25vw;
+    height: 73vh;
+    width: 28vw;
+    border-radius: 8px;
+    box-shadow: -3px 4px 4px  rgb(43, 43, 131);
 
     
     
 }
+
+
+
 img{
     float: right;
     width: 50vw;
@@ -70,6 +78,11 @@ input{
 input[type=number]::-webkit-inner-spin-button{
     appearance: none;
 }
+#num{
+    margin-top: 15px;
+    width: 250px;
+    height: 30px;
+}
 button{
     display: flex;
     flex-direction: column;
@@ -89,10 +102,8 @@ button{
     
 }
 h2{
-    margin-left: auto;
-    margin-right: auto;
-    width: 10em;
-    margin-top: 10px;
+   margin-top: 10px;
+    text-align: center;
     
 }
 h3{

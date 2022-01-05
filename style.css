@@ -24,27 +24,10 @@ body{
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    
-  
-}
-.logo{
-    padding: 15px 0;
-}
-.logo > h1{
-    color:white;
-    font-size: 2.25em;
-    font-family: 'Orbitron', sans-serif;
-    text-shadow: -1px 2px 4px #c052eb;
-}
-.logo > h2{
-    color:white;
-    font-size: 2.25em;
-    font-family: 'Orbitron', sans-serif;
-    text-shadow: -1px 2px 4px #c052eb;
 }
 .menu-item ul{
-display: flex;
- list-style: none;
+    display: flex;
+    list-style: none;
  
  }
 .menu ul li a{
@@ -65,6 +48,24 @@ display: flex;
 .menu-item li{
     display: block;
 }
+/*onde seria a logo que é meu nome*/
+.logo{
+    padding: 15px 0;
+}
+.logo > h1{
+    color:white;
+    font-size: 2.25em;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: -1px 2px 4px #c052eb;
+}
+.logo > h2{
+    color:white;
+    font-size: 2.25em;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: -1px 2px 4px #c052eb;
+}
+
+
 /*card de contato com a area da foto e imagem de fundo principal*/
 
 .sobre-container{
@@ -97,8 +98,9 @@ display: flex;
     height: 200px;
     border-radius: 10px;
     padding: 30px 30px;
-    
-    
+    font-style: italic;
+    text-shadow: -1px 2px 4px #c052eb;
+    font-family: sans-serif;
     
 }
 .desc-sobre h3{
@@ -144,11 +146,14 @@ display: flex;
     
 }
 .redes-sociais-itens{
-    width: 80px;
-    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
      color: white;
-     margin-top: 20px;
+    
 }
+
 
 .foto-edu{
     
@@ -179,6 +184,8 @@ Padronizando div heigth de 31.25em*/
     width: 40em;
     height: 26.5em;
     border: 2px solid yellow;
+    font-family: sans-serif;
+    font-style: italic;
 }
 .sobre-mim h2,p{ 
     padding-left: 80px;
@@ -187,7 +194,7 @@ Padronizando div heigth de 31.25em*/
     margin-left: 20px;
     color: white;
     text-align: center;
-  
+   
     
 }
 /*Fim*/
