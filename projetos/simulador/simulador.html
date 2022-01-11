@@ -21,20 +21,33 @@
 
             <div class="container-simulador">
                     <div class="simulador">
-                         <h2>Você preciza de quanto?</h2> 
-                         
-                            <form>
-                            
-                            <input id="num" type="number" value="" placeholder="Digite o valor!" >
-                            
-                        <h2>Em quantas parcelas?</h2>
-                        <h2>Você pode escolher de 1x a 6x com acrescimo de 5% ao mês!</h2>
-
-                            <input id="nump" type="number" value="">
-                            <button type="button" onclick="clicar()">Calcular</button>
-
+                         <h2>Você preciza de quanto?</h2> <br>
+                        
+                                <input type="number"  id="num" value="">
+                                    
+                                     
+                                     <h2>Você pode escolher de 1x a 12x com acrescimo de 5% ao mês!</h2>
+                           
+                                <select name="" id="nump">
+                                    <option value="1">1x</option>
+                                    <option value="2">2x</option>
+                                    <option value="3">3x</option>
+                                    <option value="4">4x</option>
+                                    <option value="5">5x</option>
+                                    <option value="6">6x</option>
+                                    <option value="7">7x</option>
+                                    <option value="8">8x</option>
+                                    <option value="9">9x</option>
+                                    <option value="9">9x</option>
+                                    <option value="10">10x</option>
+                                    <option value="11">11x</option>
+                                    <option value="12">12x</option>
+                                </select>
+                                <input class="btn" type="submit" onclick="clicar()" value="Calcular"></input>
+                          
                         <h3 id="resultado"></h3>
-                            </form> 
+                            
+
                     </div>
                     <div class="img">
                         <img src="assets/imagens/img_ilustra.png" alt="">
@@ -44,7 +57,7 @@
             </div>
    
     </div>
-    
+    <script src="condicionais.js"></script>
    
 </body>
 </html>

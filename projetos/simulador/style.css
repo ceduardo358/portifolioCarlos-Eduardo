@@ -10,14 +10,17 @@
 .container{
     display: flex;
     flex-direction: column;
+    border: 1px solid red;
 }
    
-/*Imagem do topo do site*/    
+/*Imagem do topo do site */
 .container-topo{
    
     width: 100vw;
-    position: absolute;
+    position: static;
     height: 350px;
+    border: 1px solid green;
+
     
     
 }
@@ -31,17 +34,18 @@ h1{
 }
 
 /*Fim*/
+/*Conteudo do input do simulador*/
 .container-simulador{
     display: flex;
     justify-content: center;
-    margin-top: 230px;
+    margin-top: -110px;
+    border: 1px solid blueviolet;
     
 }
 
 .simulador{
     display: flex;
     flex-direction: column;
-    
     margin-left: 100px;
     background: #6c63ff;
     color: white;
@@ -49,41 +53,30 @@ h1{
     width: 28vw;
     border-radius: 8px;
     box-shadow: -3px 4px 4px  rgb(43, 43, 131);
-
-    
-    
 }
-
-
-
 img{
-    float: right;
+   
     width: 50vw;
     
 }
 input{
-    display: flex;
-  
-   left: 80px;    
+    display: flex; 
     border-style: none;
     width: 220px;
     height: 23px;
     border-radius: 6px;
-    margin-left: auto;
-    margin-right: auto;
-   
-    
+    margin: 0 auto;
+}
+#nump{
+    width: 150px;
+    margin: 0 auto;
 }
 /*Retira as setas do input type number*/
 input[type=number]::-webkit-inner-spin-button{
     appearance: none;
 }
-#num{
-    margin-top: 15px;
-    width: 250px;
-    height: 30px;
-}
-button{
+
+.btn{
     display: flex;
     flex-direction: column;
     border-style: none;
@@ -107,11 +100,10 @@ h2{
     
 }
 h3{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-left: 45px;
+
     width: 20vw;
+    text-align: center;
+    padding-top: 10px;
    
     
 }
@@ -121,4 +113,9 @@ p{
     margin-bottom: 4px;
     font-size: 18px;
 }
-
+#resultado{
+    width: 300px;
+    height: 150px;
+    margin: 15px auto;
+    background: rgb(43, 43, 131);
+}
