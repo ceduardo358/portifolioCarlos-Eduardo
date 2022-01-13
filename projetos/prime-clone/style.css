@@ -1,0 +1,69 @@
+/*----------Projeto clone Amozon prime--------------
+Cores: #19232e 
+       #0f79af
+       #
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    background:  #19232e ;
+    height: 85px;
+}
+.logo {
+   
+    display: flex;
+    padding-left: 40px;
+    
+}
+.menu-nav {
+    
+    padding-left: 20px;
+    
+   
+}
+ul {
+    display: flex;
+}
+ li {
+    color: white;
+    list-style: none;
+    margin: 5px;
+    font-size: 15px;
+}
+.cat {
+    font-size: 16px;
+    font-weight: bold;
+}
+.bt-menu {
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+   
+}
+.bi {
+    color: white;
+    margin-top: 10px;
+}
+.bi-search {
+    margin-right: 20px;
+    margin-bottom: 12px;
+}
+.bt-menu-nav {
+    width: 200px;
+    height: 35px;
+    background: #0f79af;
+    color: white;
+    border: 1px solid #0f79af;
+    border-radius: 3px;
+    margin-right: 15px;
+}
+span {
+    color: white;
+}
