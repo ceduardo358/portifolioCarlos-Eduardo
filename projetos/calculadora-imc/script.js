@@ -27,8 +27,10 @@ if(total <16){
     document.getElementById("txt").innerHTML="IMC = " + total.toFixed(2) + " Obesidade Grau II (severa)"
 }else if(total >=40){
     document.getElementById("txt").innerHTML="IMC = " + total.toFixed(2) + "Obesidade Grau III (mórbida)"  
+
+
 }};   
-//Logica de forçar o ponto do input da altura
+
 
 
 
