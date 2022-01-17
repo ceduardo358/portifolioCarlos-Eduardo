@@ -85,12 +85,9 @@ span {
 }
 /*Area do conteudo principal*/
 
-.img-principal{
-    max-width: 100vw;
-    
-}
+
 .img-principal img {
-    width: 100vw;
+    width: 100%;
     position: relative;
 }
 .conteudo-principal {
@@ -144,4 +141,287 @@ span {
     font-size: 15px;
     font-weight: 300;
     margin-top: 40px;
+}
+/*Area com segunda imagem falando das novidades*/
+.conteiner-content02 {
+    width: 100vw;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.img-novidade img{
+    width: 100vw;
+    position: relative;
+    margin-top: -4px;
+    
+}
+.conteudo-novidades {
+    display: flex;
+    flex-direction: column;
+   
+    width: 560px;
+    height: 300px;
+    position: absolute;
+    right: 110px;
+    color: white;
+    
+}
+.conteudo-novidades h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+.conteudo-novidades h3 {
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.3em;
+    margin-top: 30px;
+}
+.bt03 {
+    width: 250px;
+    height: 50px;
+    background: #0f79af;
+    color: white;
+    border: 1px solid #0f79af;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 8px;
+    margin-top: 50px;
+}
+/*Area das novidades de canais*/
+
+.container-novidades-canais {
+    
+        width: 100vw;
+        display: flex;
+        position: relative;
+        align-items: center;
+        height: 600px;
+   
+}
+.conteudo-canais {
+    flex: 1;
+    width: 50%;
+    height: 500px;
+    margin: 8px;
+}
+
+.conteudo-canais h2 {
+    font-size: 40px;
+    font-weight: 400;
+    padding: 35px;
+}
+.conteudo-canais h3 {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.3em;
+    margin-top: 30px;
+    margin: 35px;
+}
+.img-canais {
+    flex: 1;
+    width: 50%;
+    height: 500px;
+    margin: 8px;
+}
+.img-canais img:nth-child(7) {
+   margin-left: 30px;
+}
+/*area ondes estão as séries*/
+.conteiner-series {
+    width: 100vw;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.img-series img{
+    width: 100vw;
+    position: relative;
+    margin-top: -4px;
+    
+}
+.conteudo-series {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    height: 300px;
+    position: absolute;
+    right: 130px;
+    color: white;
+    
+}
+.conteudo-series h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+.conteudo-series h3 {
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.3em;
+    margin-top: 30px;
+}
+.bt04 {
+    width: 300px;
+    height: 50px;
+    background: #0f79af;
+    color: white;
+    border: 1px solid #0f79af;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 8px;
+    margin-top: 50px;
+}
+/*Conteudo da assinatura*/
+.conteiner-assinatura {
+    width: 100vw;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.img-assinatura img{
+    width: 100vw;
+    position: relative;
+    margin-top: -4px;
+    
+}
+.conteudo-assinatura {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    height: 300px;
+    position: absolute;
+    left: 130px;
+    color: white;
+    
+}
+.conteudo-assinatura h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+.conteudo-assinatura h3 {
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.3em;
+    margin-top: 30px;
+}
+.bt05 {
+    width: 300px;
+    height: 50px;
+    background: #0f79af;
+    color: white;
+    border: 1px solid #0f79af;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 8px;
+    margin-top: 50px;
+}
+/*Conteudo kids*/
+
+.conteiner-kids {
+    width: 100vw;
+    display: flex;
+    position: relative;
+    align-items: center;
+    
+}
+.img-kids img{
+    width: 100vw;
+    position: relative;
+    margin-top: -4px;
+    
+}
+.conteudo-kids {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    height: 300px;
+    position: absolute;
+    right: 170px;
+    color: white;
+    
+}
+.conteudo-kids h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+.conteudo-kids h3 {
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.3em;
+    margin-top: 30px;
+}
+.bt06 {
+    width: 300px;
+    height: 50px;
+    background: #0f79af;
+    color: white;
+    border: 1px solid #0f79af;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 8px;
+    margin-top: 50px;
+}
+/*Area final que fala do app*/
+
+.conteiner-app {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+.app-assista {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    margin: 8px;
+}
+.app-android-ios {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    margin: 8px;
+    
+}
+.app-dados {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    margin: 8px;
+  
+}
+.conteiner-app h2 {
+    font-size: 34px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 500;
+}
+.conteiner-app h3 {
+    font-size: 21px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 300;
+}
+footer {
+    background: #202020;
+    color: white;
+    height: 110px;
+    
+}
+.img-footer {
+    margin-top: 20px;
+}
+
+footer, h4 {
+    text-align: center;
+    font-weight: 400;
 }
